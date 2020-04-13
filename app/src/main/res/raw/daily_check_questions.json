@@ -1,0 +1,60 @@
+[
+  {
+    "q_code": "DQ01",
+    "type": "radio-button",
+    "question": "Have you had a COVID-19 test?",
+    "values": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "q_code": "DQ02",
+    "type": "radio-button",
+    "question": "Has anyone in your family undergone COVID-19 test?",
+    "values": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "q_code": "DQ03",
+    "type": "radio-button",
+    "question": "How do you feel right now?",
+    "values": [
+      "Feeling normal",
+      "Not feeling normal"
+    ]
+  },
+  {
+    "q_code": "DQ04",
+    "type": "checkbox",
+    "question": "Do you have any of the following symptoms today?",
+    "values": [
+      "Fever",
+      "Cough",
+      "Sore Throat",
+      "Headache",
+      "Difficulty with Breathing",
+      "None"
+    ]
+  },
+  {
+    "q_code": "DQ05",
+    "type": "radio-button",
+    "question": "Did you travel outside home/current residence yesterday?",
+    "values": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "q_code": "DQ06",
+    "type": "radio-button",
+    "question": "Is your local area safe i.e. no COVID-19 positive patients identified?",
+    "values": [
+      "Yes",
+      "No"
+    ]
+  }
+]

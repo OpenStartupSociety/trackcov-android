@@ -1,0 +1,121 @@
+[
+  {
+    "q_code": "HQ01",
+    "type": "radio-button",
+    "question": "Do you have any health problems that require you to limit movement and activity?",
+    "values": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "q_code": "HQ02",
+    "type": "checkbox",
+    "question": "Do you suffer from any of the following health conditions?",
+    "values": [
+      "Heart disease",
+      "Blood Pressure",
+      "Diabetes",
+      "Asthma",
+      "Pregnancy",
+      "None"
+    ]
+  },
+  {
+    "q_code": "HQ03",
+    "type": "radio-button",
+    "question": "Do you take any immunosupressants taken after transplant (e.g. steroids, methotrexate, other)?",
+    "values": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "q_code": "HQ04",
+    "type": "radio-button",
+    "question": "Do you regularly take Nonsteroidal anti-inflammatory drugs (NSAIDs) taken for inflammation associated conditions such as arthritis, tendonitis, and bursitis etc. (e.g. ibuprofen, naproxen, other)?",
+    "values": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "q_code": "HQ05",
+    "type": "radio-button",
+    "question": "Do you regularly take blood pressure medications (e.g. enapril, ramipril, other)?",
+    "values": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "q_code": "HQ06",
+    "type": "radio-button",
+    "question": "Do you have any health conditions that restrict you from staying at home?",
+    "values": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "q_code": "HQ07",
+    "type": "radio-button",
+    "question": "Do you use a stick, wheelchair or other assistive devices?",
+    "values": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "q_code": "HQ08",
+    "type": "radio-button",
+    "question": "How many people in your family or apartment?",
+    "values": [
+      "1",
+      "2-5",
+      "5-7",
+      "7+"
+    ]
+  },
+  {
+    "q_code": "HQ09",
+    "type": "radio-button",
+    "question": "Do you think you already had COVID-19, but were not tested?",
+    "values": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "q_code": "HQ10",
+    "type": "radio-button",
+    "question": "Have you or anyone in your family travelled abroad in last 14 days?",
+    "values": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "q_code": "HQ11",
+    "type": "text",
+    "question": "If yes which country (China, Italy, Spain, UK, USA, Middle East, East Asia, Other)"
+  },
+  {
+    "q_code": "HQ12",
+    "type": "radio-button",
+    "question": "Have you or someone in your family been in close contact with a confirmed COVID-19 patient within last 14 days?",
+    "values": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "q_code": "HQ13",
+    "type": "radio-button",
+    "question": "Have you or someone in your family been in close contact with someone having cough, cold, fever and shortness of breathe within last 14 days?",
+    "values": [
+      "Yes",
+      "No"
+    ]
+  }
+]

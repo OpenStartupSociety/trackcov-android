@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <NumberPicker
+            android:id="@+id/picker_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toStartOf="@id/dot"
+            app:layout_constraintHorizontal_chainStyle="packed"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/dot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:text="."
+            app:layout_constraintBottom_toBottomOf="@id/picker_one"
+            app:layout_constraintEnd_toStartOf="@id/picker_two"
+            app:layout_constraintStart_toEndOf="@id/picker_one"
+            app:layout_constraintTop_toTopOf="@id/picker_one" />
+
+        <NumberPicker
+            android:id="@+id/picker_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/dot"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="kg"
+            app:layout_constraintBottom_toBottomOf="@id/picker_two"
+            app:layout_constraintStart_toEndOf="@id/picker_two"
+            app:layout_constraintTop_toTopOf="@id/picker_two" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

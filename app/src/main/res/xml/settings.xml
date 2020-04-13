@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="User Interface">
+
+        <ListPreference
+            android:defaultValue="@string/pref_theme_default_value"
+            android:entries="@array/prefs_theme_titles"
+            android:entryValues="@array/prefs_theme_values"
+            android:icon="@drawable/ic_palette_black_24dp"
+            android:key="pref_theme"
+            android:title="Theme"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="About">
+
+        <Preference
+            android:icon="@drawable/ic_team"
+            android:key="about_team"
+            android:title="Our Team" />
+
+        <Preference
+            android:icon="@drawable/ic_privacy"
+            android:key="pref_privacy_policy"
+            android:title="Privacy Policy" />
+
+        <Preference
+            android:icon="@drawable/ic_feedback"
+            android:key="pref_feedback"
+            android:title="Send Feedback" />
+
+        <Preference
+            android:icon="@drawable/ic_logout"
+            android:key="pref_logout"
+            android:title="Logout" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

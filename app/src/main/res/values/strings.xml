@@ -1,0 +1,16 @@
+<resources>
+<!--    <string name="app_name">TrackCov</string>-->
+
+    <string-array name="array_gender">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Don\'t want to disclose</item>
+    </string-array>
+    <string name="birth_date">Birth date</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="health_status_good">You are doing well!</string>
+    <string name="health_status_ok">You are at mild risk - Observe</string>
+    <string name="health_status_bad">You are at risk - Check with a doctor</string>
+</resources>
